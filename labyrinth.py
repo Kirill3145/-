@@ -120,7 +120,7 @@ while game:
             if sprite.collide_rect(player, monster) or sprite.collide_rect(player, w):
                 finish = True
                 window.blit(lose, (200, 200))
-                kick.play
+                kick.play()
 
         if sprite.collide_rect(player, final):
             finish = True
